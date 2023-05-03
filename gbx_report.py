@@ -1,6 +1,6 @@
 import pandas as pd
 
-location = r"C:\Users\shacosta\Desktop\kNeighborGBX.xlsx"
+location = r"kNeighborGBX.xlsx"
 excel = pd.read_excel(location)
 
 df = pd.DataFrame(excel)
