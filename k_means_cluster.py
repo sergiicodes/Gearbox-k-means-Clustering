@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 import mplcursors
 
-location = r"C:\Users\shacosta\Desktop\Analyzer Selection2.xlsx"
+location = r"Analyzer Selection2.xlsx"
 excel = pd.read_excel(location, sheet_name="GBX DATABASE", skiprows=1)
 
 df = pd.DataFrame(excel)
