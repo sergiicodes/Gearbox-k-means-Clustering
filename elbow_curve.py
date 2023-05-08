@@ -12,11 +12,11 @@ df = pd.DataFrame(excel)
 print(df.columns)
 
 # Extract the features you want to cluster on
-features = df[['Ratio', 'Cost']]  # Replace 'Column1' and 'Column2' with the actual column names
+features = df[['Ratio', 'Cost']]  # The columns from the read Excel
 
 # Calculate the within-cluster sum of squares (WCSS) for different values of k
 wcss = []
-k_values = np.arange(1, 13, 1)  # Set the desired k values
+k_values = np.arange(1, 13, 1)  # Essentially the x-tick setting (format: min, max, x-tick value)
 for k in k_values:
     kmeans = KMeans(n_clusters=k, random_state=42)
     kmeans.fit(features)
