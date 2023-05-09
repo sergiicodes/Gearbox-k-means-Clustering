@@ -5,7 +5,7 @@ This project focuses on the analysis and visualization of gearbox data—specifi
 ## Files
 
 - `elbow_curve.py`: This script calculates the within-cluster sum of squares (WCSS) for different values of k and plots the elbow curve. It helps determine the optimal number of clusters (k) for the k-means clustering algorithm.
-![elbow_curve](https://user-images.githubusercontent.com/79073281/236025771-3b2bdf5f-040f-4c55-bd7b-9f357e2b3039.png)
+![elbow_curve_Figure](https://github.com/sergiojhernandezacosta/Gearbox-k-means-Clustering/assets/79073281/b122cf5f-a077-47cc-8fc0-617983ef87ef)
 
 - `k_means_cluster.py`: This script performs k-means clustering on the gearbox data based on the optimal k-value obtained from the elbow curve analysis. It assigns cluster labels to the data points, visualizes the clusters using scatter plots, and adds interactivity by displaying gearbox names on click.
 
